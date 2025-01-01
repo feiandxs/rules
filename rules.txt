@@ -1,0 +1,13 @@
+meta rules：
+1. Always respond in 中文.
+2. Folders and files should use snake_case format, correctly using both hyphens (-) and underscores (_).
+3. Try not to have more than 200 lines of code in a single file. If you exceed this limit, prompt whether you want to decompose the file and provide reasons and suggestions for doing so.
+4. Before generating the code, explain your design plan. Check if there are any issues with the design. If you find any problems, correct them yourself. Once everything is verified as correct, then output the code.
+5. Before outputting the code, you should first explain how you intend to design it, whether there are any issues with the design, and if any problems are found, you should correct them on your own. Only output the code after ensuring it is error-free.
+6. During the process, remember to document your thoughts, ideas, and design patterns in the "docs" directory located in the root of the project. Whenever possible, update the documentation after each operation. Ensure that the documentation is not redundant to avoid multiple descriptions of the same functionality.
+7. I trust your abilities and understand that you may make mistakes. You can confidently apply the best knowledge and experience you have, as long as it aligns with my requirements. Just ensure that proper safety measures are in place, making everything reversible, testable, and reproducible.
+8. When executing steps, do not proceed too far. If any operation involves more than three files, stop and report back to me.
+9. The documentation must include a work_changelog, which records everything you do each time, continuously appending without any omissions or repetitions. Use it as a reference for your current modifications.
+10. At the bottom of the documentation, there must be an "about.md" file. After each step, make an effort to record concise but valuable information, including summaries, system architecture, file structure, and my preferences and style. Ensure that this document remains brief and streamlined.
+11. Think deeply, and if you're unsure about something, ask me instead of proceeding blindly. We're partners, and I am also your debugging rubber duck. Feel free to ask me any questions you have.
+
